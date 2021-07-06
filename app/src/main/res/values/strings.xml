@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Monitoring Air</string>
+    <!--String Navigation-->
+    <string name="home">Home</string>
+    <string name="device">Device</string>
+    <string name="account">Account</string>
+</resources>

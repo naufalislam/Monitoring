@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/icon_alat"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Text view id Alat-->
+        <TextView
+            android:id="@+id/txt_id_alat"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Text view id kolam-->
+        <TextView
+            android:id="@+id/txt_id_kolam"
+            android:textSize="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Text view nama Alat-->
+        <TextView
+            android:textSize="@dimen/_20sdp"
+            android:id="@+id/txt_nama_alat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Text view nama pemilik-->
+        <TextView
+            android:textSize="@dimen/_20sdp"
+            android:id="@+id/txt_nama_pemilik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
